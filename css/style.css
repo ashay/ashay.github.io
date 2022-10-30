@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url(/fonts/regular.woff2) format("woff2"),
+    url(/fonts/regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url(/fonts/bold.woff2) format("woff2"),
+    url(/fonts/bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url(/fonts/italic.woff2) format("woff2"),
+    url(/fonts/italic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/mono-regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url(/fonts/mono-bold.otf) format("opentype");
+}
+
+/* from https://news.ycombinator.com/item?id=32972768 */
+/* increase line-height for everything except headings */
+body :not(:is(h1,h2,h3,h4,h5,h6)) {
+  line-height: 1.75;
+}
+
+body {
+  margin: 0;
+  font-family: 'Atkinson Hyperlegible', Georgia, Palatino, serif;
+  font-size: 18px;
+}
+
+body, p, ul, ol {
+  -webkit-text-size-adjust: 100%;   /* Safari/Webkit nonsense */
+}
+
+h2, h3, h4, h5, h6 {
+  padding-top: 40px;
+}
+
+:not(pre) > code {
+  font-family: 'Atkinson Hyperlegible Mono', monospace;
+  background-color: #ddd;
+  padding: 2px 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+pre {
+  background-color: #ddd;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow-x: scroll;
+}
+
+div#banner {
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 5vw
+}
+
+a {
+  outline: 0;
+  color: #111;
+  text-decoration: none;
+  border-bottom: 2px solid #468C98;
+}
+
+a.red {
+  border-bottom: 2px solid #984447;
+}
+
+a.green {
+  border-bottom: 2px solid #329F5B;
+}
+
+div#container {
+  padding: 50px 0;
+}
+
+div#content {
+  padding: 4vw 5vw;
+  width: 90vw;
+  max-width: 70ch;
+}
+
+p {
+  padding: 12px 0;
+  text-indent: 30px;
+}
+
+/* the first paragraph after any heading should not be indented */
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p, p:first-of-type {
+  text-indent: 0;
+}
+
+hr {
+  border: 2px solid #329F5B;
+}
+
+div.post {
+  display: flex;
+  padding: 12px 0;
+}
+
+div.post-date {
+  min-width: 120px;
+}
+
+div.post-title {
+  flex-grow: 1;
+}
