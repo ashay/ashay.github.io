@@ -5,10 +5,10 @@ title: Ashay Rane
 # Hello! 👋 #
 
 My name is Ashay Rane, and I work in Microsoft's AI Platforms groups as a
-Compiler Engineer.  I occasionally contribute to the
-[Torch-MLIR](https://github.com/llvm/torch-mlir/) project, which translates
-machine-learning models written in PyTorch to a form that can be used with the
-LLVM/MLIR compiler framework.
+Compiler Engineer.  I occasionally contribute (although not as part of my work)
+to the [Torch-MLIR](https://github.com/llvm/torch-mlir/) project, which
+translates machine-learning models written in PyTorch to a form that can be used
+with the LLVM/MLIR compiler framework.
 
 I am a Computer Science major by training, and I have had the good fortune of
 working either full time or as an intern at Google, Microsoft Research, Texas
