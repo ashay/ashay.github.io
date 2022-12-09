@@ -12,8 +12,8 @@ with the LLVM/MLIR compiler framework.
 
 I am a Computer Science major by training, and I have had the good fortune of
 working either full time or as an intern at Google, Microsoft Research, Texas
-Advanced Computing Center (TACC), Galois, Groq, Salesforce.com, SAP Labs, and
-Symmetry Systems.
+Advanced Computing Center (TACC), Cerebras, Galois, Groq, Salesforce.com, SAP
+Labs, and Symmetry Systems.
 
 I enjoy learning about different aspects of Systems work, and I have previously
 worked on building compilers, optimizing performance of scientific and industry
