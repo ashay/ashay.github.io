@@ -4,13 +4,13 @@ title: Ashay Rane
 
 # Hello! 👋 #
 
-My name is Ashay Rane, and I work in Microsoft's AI Platforms groups as a
-Compiler Engineer.
+My name is Ashay Rane, and I am helping build the compiler at Rain
+Neuromorphics.
 
 I am a Computer Science major by training, and I previously worked either full
-time or as an intern at Google, Microsoft Research, Texas Advanced Computing
-Center (TACC), Cerebras, Galois, Groq, Salesforce.com, SAP Labs, and Symmetry
-Systems.
+time or as an intern at Cerebras, Galois, Google, Groq, Microsoft (Research),
+Salesforce.com, SAP Labs, Symmetry Systems, and the Texas Advanced Computing
+Center (TACC).
 
 I enjoy learning about different aspects of Systems work, and I have previously
 worked on building compilers, optimizing performance of scientific and industry
